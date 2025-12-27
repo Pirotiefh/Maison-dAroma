@@ -7,7 +7,7 @@ background-image: url("images/bg.jpeg");
     background-repeat: repeat;
     background-size: 1450px; 
     background-attachment: scroll;
-    background-position: top left;
+    background-position: center;
     padding-top: 80px; /* height of header */
 }
       
@@ -328,4 +328,5 @@ img {
     background: #111;
     color: #aaa;
   }
+
   
