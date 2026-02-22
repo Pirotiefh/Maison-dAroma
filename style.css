@@ -337,13 +337,21 @@ img {
   }
 
   
-@media (max-width: 600px) {
-  .nav-list {
+/* Make nav wrap on narrower screens */
+@media (max-width: 900px) {
+  header {
     flex-direction: column;
     align-items: center;
     gap: 10px;
   }
+
+  .nav-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
 }
+
 
 
 
