@@ -20,7 +20,8 @@ header {
     align-items: center;
     padding: 20px 40px;
     position: fixed;
-    width: 100%;
+    let:0;
+	right:0;
     top: 0;
 box-sizing: border-box;
         background: rgba(255,255,255,0.85);
@@ -330,6 +331,7 @@ img {
   }
 
   
+
 
 
 
