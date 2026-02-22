@@ -35,7 +35,6 @@ header {
     backdrop-filter: blur(10px);
     z-index: 1000;
 }
-}
 :root {
     --primary: #8d6b38;
     --dark: #1f1f1f;
@@ -337,6 +336,7 @@ img {
   }
 
   
+
 
 
 
