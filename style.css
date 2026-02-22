@@ -83,8 +83,8 @@ background: transparent; !important;
     font-size: 18px;
 }
 .shop {
-  background: transparent; !important;
-    );
+  background: transparent !important;
+
   padding: 120px 0;
 }
 .shop .container {
@@ -330,5 +330,6 @@ img {
   }
 
   
+
 
 
