@@ -1,4 +1,7 @@
 /* GENERAL STYLES */
+* {
+  box-sizing: border-box;
+}
 body {
 	  margin: 0;
   min-height: 100vh;
@@ -15,21 +18,23 @@ background-image: url("images/bg.jpeg");
 
 /* HEADER */
 header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 40px;
-    position: fixed;
-    let:0;
-	right:0;
-    top: 0;
-box-sizing: border-box;
-        background: rgba(255,255,255,0.85);
-        box-shadow: 0 4px 20px rgba(0,0,0,0.05);
-      
-      
+
+    padding: 20px 30px;   /* slightly smaller */
+    box-sizing: border-box;
+
+    background: rgba(255,255,255,0.9);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
     backdrop-filter: blur(10px);
-    z-index: 100;
+    z-index: 1000;
+}
 }
 :root {
     --primary: #8d6b38;
@@ -44,15 +49,16 @@ box-sizing: border-box;
     letter-spacing: 1px;
 }
 
+nav {
+    display: flex;
+    flex-wrap: wrap;   /* allows wrapping instead of cutting */
+}
+
 nav a {
     margin-left: 18px;
     text-decoration: none;
     color: #333;
     font-weight: 500;
-}
-
-nav a:hover {
-    color: #8d6b38;
 }
 
 /* HERO */
@@ -331,6 +337,7 @@ img {
   }
 
   
+
 
 
 
